@@ -1,0 +1,30 @@
+html,
+body {
+	margin: 1rem;
+	background: #c0ecff;
+}
+
+.avatar {
+	width: fit-content;
+	position: relative;
+}
+.avatar-container {
+cursor: pointer;
+border-radius: 50%;
+border: 5px solid #dadce0;
+box-sizing: border-box;
+overflow: hidden;
+position: relative;
+}
+.avatar-image{
+	margin-left: -5%;
+	width: 160px;
+	height: 180px;
+	background-size: cover;
+	display: block;
+	border-radius:30%
+}
+.avatar-size{
+	width: 10rem;
+	height: 10rem;
+}
